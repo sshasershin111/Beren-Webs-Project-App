@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background: #7a7a7a;
+    color: #87caf0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+.logo {
+    width: 100; 
+    height: auto;
+    margin-right: 15px; 
+}
+.header {
+    font-size: 24px;
+    margin: 0;
+}
+.buttons button {
+    margin-left: 10px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.Login {
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.sign-in {
+    background-color: #87caf0;
+    color: rgb(46, 32, 137);
+}
+
+.search {
+    background: #dadbf1;
+    padding: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 30%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"]::placeholder {
+    font-size: 18px;
+    color: #777;
+}
+
+main {
+    padding: 50px 10px;
+    flex-grow: 1;
+}
+
+.help-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.section {
+    background: #ffffff;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.section img {
+    width: 50px;
+    height: 50px;
+}
+
+.section h3 {
+    margin: 0 0 5px;
+    font-size: 25px;
+}
+
+.section p {
+    margin: 0;
+    font-size: 20px;
+    color: #555;
+}
+
+.section a {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+footer {
+    background: #080808;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: #777;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 250px; 
+    color: white;
+    background: #080808;
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer-content h3 {
+    font-size: 16px;
+}
+
+.footer-bottom {
+    text-align: right;
+    color: white;
+    background: #080808;
+    padding: 20px;
+    padding-right: 10px;
+    font-size: 14px;
+}
