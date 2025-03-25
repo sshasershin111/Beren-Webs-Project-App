@@ -1,1 +1,1 @@
-# midtermWeb
+# Beren Midterm Webs Project
